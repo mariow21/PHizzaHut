@@ -6,7 +6,7 @@
         <div class="col-md-10">
             <div class="card mb-3 mt-5 col-md-12">
                 <div class="row no-gutters">
-                  <div class="col-md-4">
+                  <div class="col-md-4 my-5">
                     <img src={{ asset('/' . $menu->photo)}} class="card-img" alt="...">
                   </div>
                   <div class="col-md-8">

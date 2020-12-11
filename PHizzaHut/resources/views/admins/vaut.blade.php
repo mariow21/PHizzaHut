@@ -10,11 +10,14 @@
                         @foreach ($menu as $men)
                             <p>Transaction at {{ $men->created_at }}
                             <br>User ID: {{ $men->user_id }}
-                            <br>Username: {{ $men->user->name }}
+                            <br>Username: {{ $men->user->name }}   
+                            <br>============================================================================                        
                             </p>
                         @endforeach
                         
                     </div>
+                </div>
+        </div>
     </div>
 </div>
 @endsection

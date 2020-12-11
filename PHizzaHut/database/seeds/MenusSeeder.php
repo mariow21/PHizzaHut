@@ -14,7 +14,7 @@ class MenusSeeder extends Seeder
     {
         DB::table("menus")->insert([
             [
-                "name" => "Bacon and Egg Breakfast Pizza",
+                "name" => "Bacon and Egg Pizza",
                 "price" => 80000,
                 "photo" => "1.jpg",
                 "desc" => "Put all your breakfast favorites like bacon, eggs and cheese on top of a pizza crust in this homemade breakfast pizza recipe!",
